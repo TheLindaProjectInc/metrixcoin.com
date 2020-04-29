@@ -11,6 +11,6 @@ jobs:
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@3.0.0
       with:
-        ftp-server: ftp://ftp.lindax.network
+        ftp-server: 107.180.1.241
         ftp-username: deploy@metrixcoin.com
         ftp-password: eQRj4V72NfIkVmuIhnpPEHS48QODLjMd
