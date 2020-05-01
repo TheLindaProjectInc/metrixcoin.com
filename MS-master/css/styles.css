@@ -2550,12 +2550,12 @@ https://github.com/yui/pure/blob/master/LICENSE.md
     font-size: 125%;
   }
 }
-/* 
-// TODO: Check responsiveness for logo , 
+/*
+// TODO: Check responsiveness for logo ,
 TODO: rotate logo like coin,
 TODO: to top icon
 
-// TODO: stats counter running effect 
+// TODO: stats counter running effect
 ! check colors variables, properly used
 * Check favicon bundle on html page
 ? check credits for site
@@ -2819,6 +2819,9 @@ header .widget__live-price .widget__price-usd {
   font-weight: normal;
   display: block;
 }
+header .widget__live-price .widget__price-satoshi {
+  font-size: 10px;
+}
 header .widget__live-price i {
   float: right;
   position: absolute;
@@ -2854,6 +2857,9 @@ header .widget__live-price .widget__price-volume {
   padding: 5px;
   padding-top: 0;
   letter-spacing: 0.5px;
+}
+header .widget__live-price .widget__price-volume > div {
+  flex: 1 1 0%;
 }
 header nav.header__menu {
   text-align: center;
@@ -3904,12 +3910,19 @@ footer .container:before {
 footer .metrix-exchanges {
   margin-bottom: 2rem;
 }
+footer .metrix-exchanges h3 {
+  margin-bottom: 10px;
+}
 footer .metrix-exchanges img {
   margin: 0 0.5rem;
   filter: saturate(0) brightness(400%);
   opacity: 0.3;
   height: auto;
   max-height: 23px;
+}
+footer .metrix-exchanges img.btc-alpha {
+  width: 72px;
+  margin: 0;
 }
 footer .pure-u-md-1-2 {
   vertical-align: middle;
@@ -4369,6 +4382,9 @@ footer .copyrights p {
   footer .metrix-exchanges img {
     margin: 0 1rem;
     max-height: 40px;
+  }
+  footer .metrix-exchanges img.btc-alpha {
+    margin-left: 1rem;
   }
   footer svg + .container > .pure-u-1-4 {
     padding: 2rem 0 1em;

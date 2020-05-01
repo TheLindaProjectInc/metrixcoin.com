@@ -93,7 +93,7 @@
                       json.usd + " USD"
                     );
                     $("#requestSATS").append(
-                      json.btc.toFixed(8)
+                      json.btc.toFixed(9)
                     );
                     $("#requestCHANGE").append(
                       (json.usd_24h_change.toFixed(0) < 0 ? json.usd_24h_change.toFixed(0) * -1 : json.usd_24h_change.toFixed(0)) + "%"
@@ -151,15 +151,15 @@
           <a href="#;" class="ovx-btn size-xlarge event-secondary tooltip-i" title="New Whitepaper coming soon">
             Check whitepaper</a>
           <span>
-            <a href="https://github.com/TheLindaProjectInc/Altitude/releases/latest" class="ovx-btn wireframed event-success size-xlarge  wallet-link" id="win-wallet">
-              Windows Wallet v1.3.2</a>
-            <a href="https://github.com/TheLindaProjectInc/Altitude/releases/latest" class="ovx-btn wireframed event-success size-xlarge wallet-link" id="osx-wallet">
-              OSX Wallet v1.3.2</a>
-            <a href="https://github.com/TheLindaProjectInc/Altitude/releases/latest" class="ovx-btn wireframed event-success size-xlarge  wallet-link" id="linux-wallet">
-              Linux Wallet v1.3.2</a>
-            <a href="https://play.google.com/store/apps/details?id=com.mystakingwallet.app" class="ovx-btn wireframed event-success size-xlarge  wallet-link" id="and-wallet">
+            <a href="https://github.com/TheLindaProjectInc/Altitude/releases/latest" class="ovx-btn wireframed event-success size-xlarge wallet-link" target="_blank" id="win-wallet">
+              Windows Wallet v2.1.5</a>
+            <a href="https://github.com/TheLindaProjectInc/Altitude/releases/latest" class="ovx-btn wireframed event-success size-xlarge wallet-link" target="_blank" id="osx-wallet">
+              OSX Wallet v2.1.5</a>
+            <a href="https://github.com/TheLindaProjectInc/Altitude/releases/latest" class="ovx-btn wireframed event-success size-xlarge wallet-link" target="_blank" id="linux-wallet">
+              Linux Wallet v2.1.5</a>
+            <a href="https://play.google.com/store/apps/details?id=com.mystakingwallet.app" class="ovx-btn wireframed event-success size-xlarge wallet-link" target="_blank" id="and-wallet">
               Get My Staking Wallet For Android</a>
-            <a href="https://apps.apple.com/us/app/linda-my-staking-wallet/id1404883927" class="ovx-btn wireframed event-success size-xlarge  wallet-link" id="ios-wallet">
+            <a href="https://apps.apple.com/us/app/linda-my-staking-wallet/id1404883927" class="ovx-btn wireframed event-success size-xlarge wallet-link" target="_blank" id="ios-wallet">
               Get My Staking Wallet For IOS</a>
             <a href="#trig" rel="section-scroll" class="link"><i>check other wallet versions</i></a>
 
@@ -643,7 +643,8 @@
 
             <p>A friendly, easy-to-use swap platform aimed at making the act of acquiring Metrix easy for even the first timer! USD* and BTC accepted!
             </p>
-            <a href="http://buy.metrixcoin.com" class="ovx-btn size-xsmall">Visit Website</a>
+            <div style="margin-bottom: 5px;">[no longer supported]</div>
+            <a href="" class="ovx-btn size-xsmall" disabled>Visit Website</a>
           </div>
         </div>
       </div>
@@ -911,11 +912,10 @@
     <div class="pure-g container ">
 
       <div class="pure-u-1 metrix-exchanges TextRight-resCenter">
-        <h3 style="margin-right: 10%"> Our Exchanges</h3>
-        <!-- <a href="https://www.idax.pro/exchange?pairname=MRX_BTC" target="_blank"> <img src="img/idax.png" alt="Idax"></a>  Scammy fucks.. Removed -->
-        <a href="https://crex24.com/exchange/MRX-BTC" target="_blank"> <img src="img/crex24.png" alt="CREX24"></a>
-        <a href="https://btc-alpha.com/en/exchange/MRX_BTC" target="_blank"> <img src="img/btcAlpha2.png" alt="BTC-Alpha"></a>
-        <a href="https://exchange.bastionex.com/exchange/MRX-BTC" target="_blank"> <img src="img/bastion.png" alt="Bastion"></a>
+        <h3>Our Exchanges</h3>
+        <a href="https://altilly.com/market/MRX_BTC" target="_blank"><img src="img/altilly_new_white2.png" alt="Altilly" class="altilly"></a>
+        <a href="https://crex24.com/exchange/MRX-BTC" target="_blank"><img src="img/crex24.png" alt="CREX24" class="crex24"></a>
+        <a href="https://btc-alpha.com/en/exchange/MRX_BTC" target="_blank"><img src="img/btc-alpha.svg" alt="BTC-Alpha" class="btc-alpha"></a>
       </div>
 
       <div class="pure-g footer__lists">
@@ -942,7 +942,7 @@
           <li><a href="https://discord.gg/5nwrTwJ" target="_blanc"> Discord </a></li>
           <!-- <li><a href=""> Discussion Forum </a></li> -->
           <li><a href="https://twitter.com/MetrixCoin" target="_blank"> Twitter </a></li>
-          <li><a href="https://www.reddit.com/r/Lindacoin/" target="_blank"> Reddit </a></li>
+          <li><a href="https://www.reddit.com/r/Linda_Project_Inc/" target="_blank"> Reddit </a></li>
           <li><a href="https://github.com/TheLindaProjectInc/Metrix" target="_blank"> Github Repo </a></li>
 
         </ul>
@@ -961,7 +961,7 @@
               </li>
 
               <li>
-                <a href="https://www.reddit.com/r/Lindacoin/" class="icon-reddit-square" target="_blank"></a>
+                <a href="https://www.reddit.com/r/Linda_Project_Inc/" class="icon-reddit-square" target="_blank"></a>
               </li>
               <!-- <li><a href="" class="icon-telegram"></a></li> -->
               <!--    <li>
