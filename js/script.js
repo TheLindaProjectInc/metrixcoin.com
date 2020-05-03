@@ -277,6 +277,7 @@
     }
   });
 
+  // Price & Volume Widget
   $(document).ready(function() {
     var url = "https://api.coingecko.com/api/v3/ping";
 
@@ -308,6 +309,8 @@
             json.usd_market_cap == 0 ? "?" : json.usd_market_cap.toFixed(2) + " USD"
           );
         });
+      } else {
+        console.log('Price & Volume Widget: Coingecko API v3 seems to be offline 😞');
       }
     });
   });
