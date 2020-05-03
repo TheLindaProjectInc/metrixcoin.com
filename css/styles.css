@@ -2178,6 +2178,9 @@ header .widget__live-price .widget__price-usd {
   font-weight: 400;
   display: block
 }
+header .widget__live-price .widget__price-satoshi {
+  font-size: 10px;
+}
 header .widget__live-price i {
   float: right;
   position: absolute;
@@ -2213,6 +2216,9 @@ header .widget__live-price .widget__price-volume {
   padding: 5px;
   padding-top: 0;
   letter-spacing: .5px
+}
+header .widget__live-price .widget__price-volume > div {
+  flex: 1 1 0%;
 }
 .widget__price-volume>div {
   flex: 1 1 0%;
@@ -3295,11 +3301,18 @@ footer .metrix-exchanges {
   margin-bottom: 2rem;
   margin-bottom: 3vw
 }
+footer .metrix-exchanges h3 {
+  margin-bottom: 10px;
+}
 footer .metrix-exchanges img {
   margin: 0 .5rem;
   opacity: .5;
   height: auto;
   max-height: 23px
+}
+footer .metrix-exchanges img.btc-alpha {
+  width: 72px;
+  margin: 0;
 }
 footer .pure-u-md-1-2 {
   vertical-align: middle
@@ -3779,6 +3792,9 @@ footer .copyrights p {
   footer .metrix-exchanges img {
     margin: 0 1rem;
     max-height: 40px
+  }
+  footer .metrix-exchanges img.btc-alpha {
+    margin-left: 1rem;
   }
   footer svg+.container>.pure-u-1-4 {
     padding: 2rem 0 1em;
