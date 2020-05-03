@@ -311,3 +311,8 @@
       }
     });
   });
+
+  // Footer Copyright
+  $(document).ready(function() {
+    $('footer .copyrights p').html('&copy; '+ new Date().getFullYear() +' | Metrix.');
+  }
