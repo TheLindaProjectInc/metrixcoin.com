@@ -9,7 +9,7 @@
   ===================================================
 
   If you are a developer and you are willing to volunteer to help this (now) community driven coin, please apply to support@metrixcoin.com or give us a shout via our Discord (https://discord.gg/p4SWEC).
-  `, "font-family:monospace");
+  `, "font-family:monospace; color: #614D69;");
 
   $(window).load(function() {
     // Animate loader off screen
