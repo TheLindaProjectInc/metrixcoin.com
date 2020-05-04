@@ -22,7 +22,7 @@
   <meta
     name="Metrix is a digital asset focusing on widespread adoption and creating ease-of-use applications. The Metrix team is dedicated to building a diverse network of vendors and working applications all powered by the use of our digital asset. " />
 
-  <link rel="stylesheet" type="text/css" href="css/styles.css" />
+  <link rel="stylesheet" type="text/css" href="css/styles.min.css" />
 
   <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -76,43 +76,7 @@
           </div>
           <a href="#wallets" rel="section-scroll">Wallet</a>
           <a href="#faq" class="active" rel="section-scroll">FAQ</a>
-          <a href="">Explorer</a>
-          <script type="text/javascript">
-            $(document).ready(function() {
-              var url = "https://api.coingecko.com/api/v3/ping";
-
-              $.getJSON(url, function(json) {
-                if (json.gecko_says == "(V3) To the Moon!") {
-                  url = "https://api.coingecko.com/api/v3/simple/price?ids=linda&vs_currencies=btc%2Cusd&include_market_cap=true&include_24hr_vol=true&include_24hr_change=true";
-
-                  $.getJSON(url, function(json) {
-                    json = json.linda;
-
-                    $("#requestUSD").append(
-                      json.usd + " USD"
-                    );
-                    $("#requestSATS").append(
-                      json.btc.toFixed(9)
-                    );
-                    $("#requestCHANGE").append(
-                      (json.usd_24h_change.toFixed(0) < 0 ? json.usd_24h_change.toFixed(0) * -1 : json.usd_24h_change.toFixed(0)) + "%"
-                    );
-                    if (json.usd_24h_change.toFixed(0) < 0) {
-                      $("#requestCHANGE").addClass('drop');
-                    } else {
-                      $("#requestCHANGE").addClass('rise');
-                    }
-                    $("#requestVOL").append(
-                      json.usd_24h_vol.toFixed(2) + " USD"
-                    );
-                    $("#requestMC").append(
-                      json.usd_market_cap == 0 ? "?" : json.usd_market_cap.toFixed(2) + " USD"
-                    );
-                  });
-                }
-              });
-            });
-          </script>
+          <a href="https://mystakingwallet.com/app/explorer" target="_blank">Explorer</a>
           <div class="widget__live-price">
             <label for=""> <span class="metrix-icon"></span> Metrix (MRX)</label>
             <strong class="widget__price-usd" id="requestUSD"></strong>
