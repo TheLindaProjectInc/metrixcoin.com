@@ -2,7 +2,7 @@
 # Metrix Coin Website
 
 > **Note:**
-> [Ramit Arora](iamramit.com) is the original creator of the website.
+> Ramit Arora "iamramit.com" is the original creator of the website.
 > It was coded using Less preprocessor and compiled with [CodeKit](https://codekitapp.com/).
 > No other libraries are needed to view the project.
 
@@ -13,4 +13,4 @@ Because a lot of the Less components are missing, [CodeKit](https://codekitapp.c
 The original Less components that were imported when it was originally compiled seem to be missing. So instead make any style changes to `/css/styles.css`, minify it to `/css/styles.min.css` and ignore any `*.less` files.
 
 ---
-> README: [Chris "Crimbo"](ckhatton.com). | Written with [StackEdit](https://stackedit.io/).
+> README: [Chris "Crimbo"](https://ckhatton.com/). | Written with [StackEdit](https://stackedit.io/).
