@@ -10,7 +10,7 @@ Because a lot of the Less components are missing, [CodeKit](https://codekitapp.c
 
 ## Styling
 
-The original Less components that were imported when it was originally compiled seem to be missing. So instead make any style changes to `/css/styles.css`, minify it to `/css/styles.min.css` and ignore any `*.less` files.
+The original Less components that were imported when it was originally compiled seem to be missing. So instead make any style changes to `/css/styles.css`, minify it to `/css/styles.min.css`, and ignore any `*.less` files. [UglifyCSS](https://www.npmjs.com/package/uglifycss) is a useful tool for this, using the command `uglifycss css/styles.css > css/styles.min.css` from the project root.
 
 ---
 > README: [Chris "Crimbo"](https://ckhatton.com/). | Written with [StackEdit](https://stackedit.io/).
