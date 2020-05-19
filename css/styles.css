@@ -2988,11 +2988,15 @@ section p {
 }
 .products .products__grid {
   display: grid;
-  /* grid-template-columns: repeat(auto-fill, minmax(345px, 1fr)); */
   text-align: center;
   grid-gap: 3rem;
   margin: 3rem 0;
   padding: 0 3rem
+}
+@media (min-width: 473px) {
+  .products .products__grid {
+    grid-template-columns: repeat(auto-fill, minmax(345px, 1fr));
+  }
 }
 .products .products__grid .product__item-msw {
   background-color: #5e9df1
