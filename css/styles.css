@@ -3166,7 +3166,15 @@ section p {
 }
 #faq .container .faq__question p {
   font-size: .9em;
-  margin: 0
+  /* margin: 0; */
+  text-align: initial;
+  -webkit-hyphens: initial;
+  -epub-hyphens: initial;
+  -moz-hyphens: initial;
+  hyphens: initial;
+}
+#faq .container .faq__question blockquote {
+  margin: 1em 0;
 }
 @media (min-width: 1206px) {
   #faq .container {
