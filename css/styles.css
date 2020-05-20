@@ -2625,45 +2625,45 @@ section p {
 #team svg:first-child {
   top: 0
 }
-#products, #team {
+.products, #team {
   background: #384154;
   color: #cdcdcd;
   padding: 12rem 0
 }
-#products .section-title h2, #team .section-title h2 {
+.products .section-title h2, #team .section-title h2 {
   color: #957d9f;
   font-size: 1.4rem
 }
-#products .section-title h2:before, #team .section-title h2:before {
+.products .section-title h2:before, #team .section-title h2:before {
   background: #9b899b
 }
-#products .section-title strong, #team .section-title strong {
+.products .section-title strong, #team .section-title strong {
   color: #cdcdcd
 }
-#products .team__wrap, #team .team__wrap {
+.products .team__wrap, #team .team__wrap {
   padding: 3rem 0;
   text-align: center
 }
-#products .team__member, #team .team__member {
+.products .team__member, #team .team__member {
   padding: 1.5rem 1.5rem
 }
-#products .team__member strong, #team .team__member strong {
+.products .team__member strong, #team .team__member strong {
   display: block;
   font-family: 'Noe Display', serif;
   color: #fff
 }
-#products .team__member label, #team .team__member label {
+.products .team__member label, #team .team__member label {
   padding: 0 1em;
   display: inline-block;
   font-size: .85em;
   color: #cdcdcd;
   opacity: .5
 }
-#products .team__member .team__member-img, #team .team__member .team__member-img {
+.products .team__member .team__member-img, #team .team__member .team__member-img {
   padding: 0 0 .5rem;
   position: relative
 }
-#products .team__member .team__member-img a.icon-twitter, #team .team__member .team__member-img a.icon-twitter {
+.products .team__member .team__member-img a.icon-twitter, #team .team__member .team__member-img a.icon-twitter {
   position: absolute;
   right: 0;
   font-size: 1.5em;
@@ -2675,7 +2675,7 @@ section p {
   top: 40%;
   right: -15px
 }
-#products .team__member .team__member-img img, #team .team__member .team__member-img img {
+.products .team__member .team__member-img img, #team .team__member .team__member-img img {
   border: 8px solid #cdcdcd;
   border-radius: 50%;
   box-shadow: 0 3.66px 9.16px rgba(0, 0, 0, .8);
@@ -2982,39 +2982,56 @@ section p {
   color: #29072c;
   text-transform: uppercase
 }
-#products {
+.products {
   padding: 0;
   position: relative
 }
-#products .products__grid {
+.products .products__grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(345px, 1fr));
   text-align: center;
   grid-gap: 3rem;
   margin: 3rem 0;
   padding: 0 3rem
 }
-#products .products__grid .product__item-msw {
+@media (min-width: 473px) {
+  .products .products__grid {
+    grid-template-columns: repeat(auto-fill, minmax(345px, 1fr));
+  }
+}
+.products .products__grid .product__item-msw {
   background-color: #5e9df1
 }
-#products .products__grid .product__item-msw img {
+.products .products__grid .product__item-msw img {
   max-height: 55px;
   margin-top: 12px
 }
-#products .products__grid .product__item-mnp {
+.products .products__grid .product__item-mnp {
   background-color: #e6986b
 }
-#products .products__grid .product__item-mnp img {
+.products .products__grid .product__item-mnp img {
   max-height: 35px
 }
-#products .products__grid .product__item-gmg {
+.products .products__grid .product__item-gmg {
   background-color: #d2291c
 }
-#products .products__grid .product__item-gmg img {
+.products .products__grid .product__item-gmg img {
   max-height: 68px;
   margin-top: 10px
 }
-#products .products__grid span {
+.products .products__grid .product__item-feedback {
+  background-color: #730373;
+}
+.products .products__grid .product__item-feedback img {
+  margin-left: 2px;
+}
+.products .products__grid .product__item-wiki {
+  background-color: #5e9df1;
+}
+.products .products__grid .product__item-wiki img {
+  margin-top: 24px;
+  margin-left: 3px;
+}
+.products .products__grid span {
   border-radius: 50%;
   position: absolute;
   left: -2rem;
@@ -3024,31 +3041,31 @@ section p {
   width: 80px;
   height: 80px
 }
-#products .products__grid span img {
+.products .products__grid span img {
   max-height: 35px;
   margin-top: 20px
 }
-#products .products__grid>div {
+.products .products__grid>div {
   border-radius: 8px;
   background: #cdcdcd;
   padding: 1.5rem;
   position: relative
 }
-#products .products__grid>div h5 {
+.products .products__grid>div h5 {
   margin: 0 0 1rem;
   font-size: 1.2em;
   font-weight: 400;
   color: #29072c
 }
-#products .products__grid>div p {
+.products .products__grid>div p {
   font-size: .8rem;
   padding: 0 .5rem;
   color: #fff
 }
-#products .container.pure-g {
+.products .container.pure-g {
   padding: 3rem 1rem
 }
-#products svg {
+.products svg {
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -3153,7 +3170,20 @@ section p {
 }
 #faq .container .faq__question p {
   font-size: .9em;
-  margin: 0
+  /* margin: 0; */
+  text-align: initial;
+  -webkit-hyphens: initial;
+  -epub-hyphens: initial;
+  -moz-hyphens: initial;
+  hyphens: initial;
+}
+#faq .container .faq__question blockquote {
+  margin: 1em 0;
+}
+@media (min-width: 1206px) {
+  #faq .container {
+    margin-bottom: 3rem;
+  }
 }
 #get-notified {
   text-align: center;

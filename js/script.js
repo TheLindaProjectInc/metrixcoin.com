@@ -1,15 +1,17 @@
 // JavaScript Document
 
-  console.log(`%c   __  __      _        _         _____      _
-  |  \\/  |    | |      (_)       / ____|    (_)
-  | \\  / | ___| |_ _ __ ___  __ | |     ___  _ _ __
-  | |\\/| |/ _ \\ __| '__| \\ \\/ / | |    / _ \\| | '_ \\
-  | |  | |  __/ |_| |  | |>  <  | |___| (_) | | | | |
-  |_|  |_|\\___|\\__|_|  |_/_/\\_\\  \\_____\\___/|_|_| |_|
-  ===================================================
+console.log(`%c __  __      _        _         _____      _
+|  \\/  |    | |      (_)       / ____|    (_)
+| \\  / | ___| |_ _ __ ___  __ | |     ___  _ _ __
+| |\\/| |/ _ \\ __| '__| \\ \\/ / | |    / _ \\| | '_ \\
+| |  | |  __/ |_| |  | |>  <  | |___| (_) | | | | |
+|_|  |_|\\___|\\__|_|  |_/_/\\_\\  \\_____\\___/|_|_| |_|
+===================================================
 
-  If you are a developer and you are willing to volunteer to help this (now) community driven coin, please apply to support@metrixcoin.com or give us a shout via our Discord (https://discord.gg/p4SWEC).
-  `, "font-family:monospace; color: #614D69;");
+If you are a developer and you are willing to volunteer to help this (now) community driven coin, please apply to support@metrixcoin.com or give us a shout via our Discord (https://discord.gg/p4SWEC).
+`, "font-family:monospace; color: #614D69;");
+
+// ===
 
   $(window).load(function() {
     // Animate loader off screen
