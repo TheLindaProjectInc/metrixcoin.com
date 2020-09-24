@@ -6038,3 +6038,8 @@ button.swiper-pagination-bullet {
     -o-border-radius: 0 4px 4px 0
   }
 }
+.products .team__member label.small,
+#team .team__member label.small {
+  font-size: 11px;
+  padding: 0;
+}
