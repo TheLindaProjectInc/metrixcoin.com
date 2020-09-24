@@ -2653,8 +2653,7 @@ section p {
   color: #fff
 }
 .products .team__member label, #team .team__member label {
-  padding: 0 1em;
-  display: inline-block;
+  display: block;
   font-size: .85em;
   color: #cdcdcd;
   opacity: .5
@@ -6042,4 +6041,5 @@ button.swiper-pagination-bullet {
 #team .team__member label.small {
   font-size: 11px;
   padding: 0;
+  display: block;
 }
