@@ -2,7 +2,7 @@
 # Metrix Coin Website
 
 > **Note:**
-> Ramit Arora "iamramit.com" is the original creator of the website.
+> [Ramit Arora](https://ramitarora.com) is the original creator of the website.
 > It was coded using Less preprocessor and compiled with [CodeKit](https://codekitapp.com/).
 > No other libraries are needed to view the project.
 
