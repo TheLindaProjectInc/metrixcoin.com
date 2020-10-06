@@ -2681,6 +2681,9 @@ section p {
   height: auto;
   width: 100%
 }
+#team .team__member .team__member-img img {
+  filter: grayscale(100%);
+}
 #roadmap {
   background: 0 0
 }
