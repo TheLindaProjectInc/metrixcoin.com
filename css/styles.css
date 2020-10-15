@@ -3343,6 +3343,9 @@ footer .metrix-exchanges img.btc-alpha {
   width: 72px;
   margin: 0;
 }
+footer .metrix-exchanges img.digifinex {
+  height: 40px;
+}
 footer .pure-u-md-1-2 {
   vertical-align: middle
 }
