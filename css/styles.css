@@ -2630,6 +2630,9 @@ section p {
   color: #cdcdcd;
   padding: 12rem 0
 }
+.partners {
+  padding-bottom: 3rem;
+}
 .products .section-title h2, #team .section-title h2 {
   color: #957d9f;
   font-size: 1.4rem
@@ -2640,29 +2643,34 @@ section p {
 .products .section-title strong, #team .section-title strong {
   color: #cdcdcd
 }
-.products .team__wrap, #team .team__wrap {
+.partners .team__wrap, .products .team__wrap, #team .team__wrap {
   padding: 3rem 0;
   text-align: center
 }
-.products .team__member, #team .team__member {
+.partners .team__wrap {
+  max-width: 64em;
+  margin: 0 auto;
+  padding-bottom: 0;
+}
+.partners .team__member, .products .team__member, #team .team__member {
   padding: 1.5rem 1.5rem
 }
-.products .team__member strong, #team .team__member strong {
+.partners .team__member strong, .products .team__member strong, #team .team__member strong {
   display: block;
   font-family: 'Noe Display', serif;
   color: #fff
 }
-.products .team__member label, #team .team__member label {
+.partners .team__member label, .products .team__member label, #team .team__member label {
   display: block;
   font-size: .85em;
   color: #cdcdcd;
   opacity: .5
 }
-.products .team__member .team__member-img, #team .team__member .team__member-img {
+.partners .team__member .team__member-img, .products .team__member .team__member-img, #team .team__member .team__member-img {
   padding: 0 0 .5rem;
   position: relative
 }
-.products .team__member .team__member-img a.icon-twitter, #team .team__member .team__member-img a.icon-twitter {
+.partners .team__member .team__member-img a.icon-twitter, .products .team__member .team__member-img a.icon-twitter, #team .team__member .team__member-img a.icon-twitter {
   position: absolute;
   right: 0;
   font-size: 1.5em;
@@ -2674,12 +2682,46 @@ section p {
   top: 40%;
   right: -15px
 }
-.products .team__member .team__member-img img, #team .team__member .team__member-img img {
+.partners .team__member .team__member-img img, .products .team__member .team__member-img img, #team .team__member .team__member-img img {
   border: 8px solid #cdcdcd;
   border-radius: 50%;
   box-shadow: 0 3.66px 9.16px rgba(0, 0, 0, .8);
   height: auto;
   width: 100%
+}
+.partners .team__member .team__member-div {
+  background-color: #E6E6E6;
+  border-radius: 10px;
+  box-shadow: 0 3.66px 9.16px rgba(0, 0, 0, .8);
+  padding: 1.5rem;
+  min-width: 280px;
+  min-height: 29rem;
+}
+.partners .team__member .team__member-div > img {
+  padding: 1rem 1rem 1rem;
+  height: auto;
+  width: 100%;
+}
+.partners .team__member .team__member-div h3 {
+  font-weight: 400;
+  color: #000;
+  text-align: center;
+  font-size: 1.8rem;
+}
+.partners .team__member .team__member-div p {
+  color: #333;
+  font-size: 1rem;
+  text-align: initial;
+}
+.partners .team__member .team__member-div div {
+  display: flex;
+  justify-content: flex-end;
+}
+.partners .team__member .team__member-div div img {
+  max-width: 50%;
+}
+#team .team__member .team__member-img img {
+  filter: grayscale(100%);
 }
 #roadmap {
   background: 0 0
@@ -2992,6 +3034,9 @@ section p {
   margin: 3rem 0;
   padding: 0 3rem
 }
+#partner.products .products__grid {
+  display: flex;
+}
 @media (min-width: 473px) {
   .products .products__grid {
     grid-template-columns: repeat(auto-fill, minmax(345px, 1fr));
@@ -3029,6 +3074,30 @@ section p {
 .products .products__grid .product__item-wiki img {
   margin-top: 24px;
   margin-left: 3px;
+}
+.products .products__grid .product__item-partner {
+  background-color: #ccc;
+  padding: 1.5rem 2rem;
+}
+@media (min-width: 768px) {
+  .products .products__grid .product__item-partner {
+    padding: 1.5rem 4rem;
+  }
+}
+.products .products__grid .product__item-partner img {
+  margin-top: 7px;
+  margin-left: 1px;
+  max-height: 66px;
+}
+.products .products__grid .product__item-partner p {
+  font-size: 1rem;
+  color: #000;
+}
+.products .products__grid .product__item-partner .ovx-btn {
+  font-size: 1rem;
+  text-transform: uppercase;
+  background-color: #730373;
+  border: 2px solid #fff;
 }
 .products .products__grid span {
   border-radius: 50%;
