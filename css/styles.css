@@ -1324,8 +1324,7 @@ a:link {
   font-weight: 400;
   font-style: normal;
   font-family: icomoon;
-  src: url(../fonts/icomoon.eot);
-  src: url(../fonts/icomoon.eot?#iefixfsav2c) format('embedded-opentype'), url(../fonts/icomoon.woff) format('woff'), url(../fonts/icomoon.ttf) format('truetype'), url(../fonts/icomoon.svg?fsav2c#icomoon) format('svg')
+  src: url(../fonts/icomoon.ttf) format('truetype');
 }
 [class*=" icon-"], [class^=icon-] {
   speak: none;
@@ -1340,119 +1339,109 @@ a:link {
 .icon_class, .is-icon, [class*=" icon-"]:before, [class^=icon-]:before {
   font-family: icomoon !important
 }
-.icon-resize:before {
-  content: "\e906"
-}
-.icon-maximize:before {
-  content: "\e906"
-}
-.icon-enlarge:before {
-  content: "\e906"
-}
-.icon-warning:before {
-  content: "\e356"
-}
-.icon-info:before {
-  content: "\e363"
-}
+/*  Select the icon here "icomoon.io/app" and then find the unicode by clicking Generate Font.
+    Some of the below are broken and will need fixing for use. */
 .icon-checkmark:before {
-  content: "\e370"
+  content: "\ea52"
 }
 .icon-arrow-up:before {
-  content: "\e3c1"
-}
-.icon-arrow-right1:before {
-  content: "\e3c4"
-}
-.icon-arrow-down:before {
-  content: "\e3c5"
-}
-.icon-arrow-left:before {
-  content: "\e3c7"
+  content: "\ea41"
 }
 .icon-arrow-up1:before {
-  content: "\e410"
+  content: "\ea3a"
 }
-.icon-arrow-right2:before {
-  content: "\e411"
+.icon-arrow-up2:before {
+  content: "\ea32"
+}
+.icon-arrow-down:before {
+  content: "\ea43"
 }
 .icon-arrow-down1:before {
-  content: "\e412"
+  content: "\ea3e"
+}
+.icon-arrow-down2:before {
+  content: "\ea36"
+}
+.icon-arrow-left:before {
+  content: "\ea44"
 }
 .icon-arrow-left1:before {
-  content: "\e413"
+  content: "\ea40"
 }
-.icon-database:before {
-  content: "\e138"
-}
-.icon-cube:before {
-  content: "\e266"
-}
-.icon-puzzle:before {
-  content: "\e26e"
-}
-.icon-minus:before {
-  content: "\e375"
-}
-.icon-plus:before {
-  content: "\e376"
+.icon-arrow-left2:before {
+  content: "\ea38"
 }
 .icon-arrow-right:before {
-  content: "\e3c3"
+  content: "\ea42"
 }
+.icon-arrow-right1:before {
+  content: "\ea3c"
+}
+.icon-arrow-right2:before {
+  content: "\ea34"
+}
+.icon-minus:before {
+  content: "\ea0b"
+}
+.icon-plus:before {
+  content: "\ea0a"
+}
+
 .icon-mail:before {
-  content: "\e48e"
-}
-.icon-twitter:before {
-  content: "\e49d"
+  content: "\e945"
 }
 .icon-tux:before {
-  content: "\e4c5"
+  content: "\eabd"
 }
 .icon-apple:before {
-  content: "\e4c6"
+  content: "\eabe"
 }
 .icon-android:before {
-  content: "\e4c8"
+  content: "\eac0"
 }
 .icon-windows8:before {
-  content: "\e4ca"
+  content: "\eac2"
+}
+
+.icon-target:before {
+  content: "\e9b3"
+}
+.icon-shield:before {
+  content: "\e9b4"
+}
+.icon-close:before {
+  content: "\ea0d"
+}
+.icon-language:before {
+  content: "\e9ca"
+}
+.icon-location-arrow:before {
+  content: "\e947"
+}
+
+.icon-twitter:before {
+  content: "\ea96"
+}
+.icon-twitter-square:before {
+  content: "\ea96"
+}
+.icon-facebook-square:before {
+  content: "\ea91"
+}
+.icon-reddit-square:before {
+  content: "\eac6"
+}
+.icon-instagram:before {
+  content: "\ea92"
+}
+.icon-medium:before {
+  content: "\e908"
 }
 .icon-telegram:before {
   content: "\ea95"
 }
-.icon-rocket:before {
-  content: "\e234"
-}
-.icon-target:before {
-  content: "\e27a"
-}
-.icon-shield:before {
-  content: "\e281"
-}
-.icon-racing:before {
-  content: "\e288"
-}
-.icon-close:before {
-  content: "\e36b"
-}
-.icon-store-front:before {
-  content: "\e900"
-}
-.icon-language:before {
-  content: "\e901"
-}
-.icon-location-arrow:before {
-  content: "\e902"
-}
-.icon-twitter-square:before {
-  content: "\e903"
-}
-.icon-facebook-square:before {
-  content: "\e904"
-}
-.icon-reddit-square:before {
-  content: "\e905"
+.icon-youtube:before {
+  content: "\ea9d"
 }
 /*!
 Pure v0.5.0
@@ -2630,6 +2619,16 @@ section p {
   color: #cdcdcd;
   padding: 12rem 0
 }
+.products.alt, #team.alt {
+  background: #E6E6E6;
+  color: #384154;
+  padding: 0 0 2rem;
+}
+@media (min-width:768px) {
+  .products.alt > div , #team.alt > div {
+    padding: 2rem 10% 2rem;
+  }
+}
 .partners {
   padding-bottom: 3rem;
 }
@@ -2642,6 +2641,9 @@ section p {
 }
 .products .section-title strong, #team .section-title strong {
   color: #cdcdcd
+}
+.products.alt .section-title strong, #team.alt .section-title strong {
+  color: #29072c;
 }
 .partners .team__wrap, .products .team__wrap, #team .team__wrap {
   padding: 3rem 0;
@@ -2666,15 +2668,19 @@ section p {
   color: #cdcdcd;
   opacity: .5
 }
+.partners.alt .team__member label, .products.alt .team__member label, #team.alt .team__member label,
+.partners.alt .team__member strong, .products.alt .team__member strong, #team.alt .team__member strong {
+  color: #000;
+}
 .partners .team__member .team__member-img, .products .team__member .team__member-img, #team .team__member .team__member-img {
   padding: 0 0 .5rem;
   position: relative
 }
-.partners .team__member .team__member-img a.icon-twitter, .products .team__member .team__member-img a.icon-twitter, #team .team__member .team__member-img a.icon-twitter {
+.partners .team__member .team__member-img a[class*="icon-"], .products .team__member .team__member-img a[class*="icon-"], #team .team__member .team__member-img a[class*="icon-"] {
   position: absolute;
   right: 0;
   font-size: 1.5em;
-  color: #2f80ed;
+  color: #29072c;
   border-radius: 50%;
   background-color: #cdcdcd;
   padding: 6px;
