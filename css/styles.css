@@ -2619,10 +2619,25 @@ section p {
   color: #cdcdcd;
   padding: 12rem 0
 }
+#team.core {
+  padding: 0 0 5rem;
+}
+@media (min-width:768px) {
+  #team.core > div {
+    padding: 2rem 0;
+  }
+  #team.core div.section-title {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+#team.core .team__wrap {
+  padding: 0;
+}
 .products.alt, #team.alt {
   background: #E6E6E6;
   color: #384154;
-  padding: 0 0 2rem;
+  padding: 0;
 }
 @media (min-width:768px) {
   .products.alt > div , #team.alt > div {
@@ -3040,6 +3055,7 @@ section p {
   margin: 3rem 0;
   padding: 0 3rem
 }
+#join.products .products__grid,
 #partner.products .products__grid {
   display: flex;
 }
