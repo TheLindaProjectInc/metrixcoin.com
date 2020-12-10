@@ -2719,6 +2719,9 @@ section p {
   min-width: 280px;
   min-height: 29rem;
 }
+.academy .team__member .team__member-div {
+  min-height: 24rem;
+}
 .partners .team__member .team__member-div > img {
   padding: 1rem 1rem 1rem;
   height: auto;
