@@ -1425,6 +1425,7 @@ a:link {
 .icon-twitter-square:before {
   content: "\ea96"
 }
+.icon-facebook:before,
 .icon-facebook-square:before {
   content: "\ea91"
 }
