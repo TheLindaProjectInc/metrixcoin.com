@@ -6149,3 +6149,26 @@ button.swiper-pagination-bullet {
   padding: 0;
   display: block;
 }
+@media screen and (max-width:64em) {
+  #as-seen-on > div > div {
+    width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+}
+@media screen and (min-width:64em) {
+  #as-seen-on {
+    position: relative;
+    top: -1.5rem;
+  }
+}
+#as-seen-on img {
+  opacity: 0.8;
+  max-height: 3rem;
+  margin: 1rem 0.5rem;
+}
+#as-seen-on img:last-child {
+  margin-right: 0;
+}
