@@ -49,7 +49,21 @@ If you are a developer and you are willing to volunteer to help this (now) commu
     }
 
     $(document).ready( function() {
-      $('.hero__stats-widget .stat span').counterUp();
+      var richlistURL = "https://explorer.metrixcoin.com/api/misc/rich-list";
+
+      if ($('#activeAddresses').length > 0) {
+        $.getJSON(richlistURL, function(json) {
+          if (json.totalCount > 0) {
+            $("#activeAddresses").html(
+              json.totalCount
+            );
+          } else {
+            console.log('Active Addresses: Metrix Explorer seems to be offline 😞');
+          }
+
+          $('.hero__stats-widget .stat span').counterUp();
+        });
+      }
 
 
         $(window).resize(resize);
@@ -292,9 +306,9 @@ If you are a developer and you are willing to volunteer to help this (now) commu
 
   // Price & Volume Widget
   $(document).ready(function() {
-    var url = "https://api.coingecko.com/api/v3/ping";
+    var coingeckoURL = "https://api.coingecko.com/api/v3/ping";
 
-    $.getJSON(url, function(json) {
+    $.getJSON(coingeckoURL, function(json) {
       if (json.gecko_says == "(V3) To the Moon!") {
         url = "https://api.coingecko.com/api/v3/simple/price?ids=linda&vs_currencies=btc%2Cusd&include_market_cap=true&include_24hr_vol=true&include_24hr_change=true";
 
