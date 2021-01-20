@@ -60,7 +60,8 @@ If you are a developer and you are willing to volunteer to help this (now) commu
           } else {
             console.log('Active Addresses: Metrix Explorer seems to be offline 😞');
           }
-
+        })
+        .always(function() {
           $('.hero__stats-widget .stat span').counterUp();
         });
       }
