@@ -3499,14 +3499,14 @@ footer .socials img {
   vertical-align: top
 }
 footer .footer__lists {
-  margin: 2rem 1rem;
+  margin: 2rem .5rem;
   margin-top: 0;
   position: relative;
   z-index: 11
 }
 footer .footer__lists>ul {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   width: 100%
 }
 footer .footer__lists>ul>li {
