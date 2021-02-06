@@ -3066,7 +3066,7 @@ section p {
 }
 @media (min-width: 473px) {
   .products .products__grid {
-    grid-template-columns: repeat(auto-fill, minmax(345px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   }
 }
 .products .products__grid .product__item-msw {
