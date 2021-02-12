@@ -2754,7 +2754,7 @@ section p {
 }
 #roadmap.landing {
   margin-top: -10rem;
-  margin-bottom: 7rem;
+  margin-bottom: 3rem;
   padding-bottom: 1rem
 }
 #roadmap.landing .section-title {
@@ -3967,7 +3967,7 @@ footer .copyrights p {
   }
   #roadmap.landing {
     margin-top: -10rem;
-    margin-bottom: 7rem;
+    margin-bottom: 3rem;
     padding-bottom: 1rem
   }
   #roadmap.landing .section-title {
@@ -4054,7 +4054,7 @@ footer .copyrights p {
     margin: 2rem auto 0
   }
 }
-@media only screen and (max-width:480px) {
+@media only screen and (max-width:640px) {
   .footer .footer__lists {
     margin: 0;
     margin: 0 2px;
@@ -4063,6 +4063,8 @@ footer .copyrights p {
   footer .footer__lists>ul>li {
     min-width: 0
   }
+}
+@media only screen and (max-width:480px) {
   #get-notified .ovx-form {
     font-size: .7em
   }
