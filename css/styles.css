@@ -6177,3 +6177,6 @@ button.swiper-pagination-bullet {
 #as-seen-on img:last-child {
   margin-right: 0;
 }
+.zoom:hover {
+  transform: scale(1.5);
+}
