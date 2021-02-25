@@ -8,7 +8,7 @@ console.log(`%c __  __      _        _         _____      _
 |_|  |_|\\___|\\__|_|  |_/_/\\_\\  \\_____\\___/|_|_| |_|
 ===================================================
 
-If you are a developer and you are willing to volunteer to help this (now) community driven coin, please apply to support@metrixcoin.com or give us a shout via our Discord (https://discord.gg/p4SWEC).
+If you are a developer and you are willing to volunteer to help this (now) community driven coin, please apply to support@metrixcoin.com or give us a shout via our Discord (http://discord.metrixcoin.com/).
 `, "font-family:monospace; color: #614D69;");
 
 // ===
