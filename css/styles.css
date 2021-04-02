@@ -6189,3 +6189,12 @@ button.swiper-pagination-bullet {
 .zoom:hover {
   transform: scale(1.5);
 }
+.flag-zoom {
+  border: 2px solid #999999;
+  border-radius: 50%;
+  width: 30px;
+  margin: 2px 3px;
+}
+.flag-zoom:hover {
+  transform: scale(1.5);
+}
