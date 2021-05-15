@@ -29,6 +29,14 @@ export default {
         content: 'width=device-width, initial-scale=1'
       },
       {
+        name: 'msapplication-TileColor',
+        content: '#fff'
+      },
+      {
+        name: 'theme-color',
+        content: '#f2f2f2'
+      },
+      {
         hid: 'og:site_name',
         name: 'og:site_name',
         content: process.env.npm_package_displayName || 'Metrix Coin'

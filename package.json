@@ -1,6 +1,19 @@
 {
   "name": "website",
-  "version": "1.0.0",
+  "displayName": "Metrix Website",
+  "version": "2.0.0",
+  "description": "Metrix is a digital asset focusing on widespread adoption and creating ease-of-use applications. The Metrix team is dedicated to building a diverse network of vendors and working applications all powered by the use of our digital asset.",
+  "author": {
+    "name": "Christopher Hatton (ckhatton)",
+    "email": "mail@ckhatton.com",
+    "url": "https://ckhatton.com/"
+  },
+  "contributors": [
+    {
+      "name": "Ramit Arora",
+      "url": "http://ramitarora.com"
+    }
+  ],
   "private": true,
   "scripts": {
     "dev": "nuxt",
