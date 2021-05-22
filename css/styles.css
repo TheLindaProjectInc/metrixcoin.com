@@ -3459,6 +3459,21 @@ footer .metrix-exchanges img.btc-alpha {
 footer .metrix-exchanges img.digifinex {
   height: 40px;
 }
+footer .metrix-exchanges .buy-metrix-link {
+  display: inline-flex;
+  align-items: center;
+}
+footer .metrix-exchanges .buy-metrix-link h1 {
+  color: #7c6386;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+@media only screen and (max-width:64em) {
+  footer .metrix-exchanges .buy-metrix-link h1 {
+    font-size: 18px;
+  }
+}
 footer .pure-u-md-1-2 {
   vertical-align: middle
 }
