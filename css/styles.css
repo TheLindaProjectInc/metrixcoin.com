@@ -3441,7 +3441,7 @@ footer .metrix-exchanges > div {
 footer .metrix-exchanges h3 {
   margin-bottom: 10px;
 }
-@media (min-width: 1024px) {
+@media (min-width: 64em) {
   footer .metrix-exchanges h3 {
     margin-right: 20px;
   }
@@ -6212,4 +6212,46 @@ button.swiper-pagination-bullet {
 }
 .flag-zoom:hover {
   transform: scale(1.5);
+}
+.top-20-exchange {
+
+}
+.top-20-exchange h2 {
+  color: white;
+}
+@media (min-width: 64em) {
+  .top-20-exchange h2 {
+    padding-top: 1rem;
+    margin-left: 20px;
+  }
+}
+.flash {
+  -moz-animation: flash 2s ease-out;
+  -moz-animation-iteration-count: infinite;
+
+  -webkit-animation: flash 2s ease-out;
+  -webkit-animation-iteration-count: infinite;
+
+  -ms-animation: flash 2s ease-out;
+  -ms-animation-iteration-count: infinite;
+}
+@keyframes flash {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+@-webkit-keyframes flash {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+@-moz-keyframes flash {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+@-ms-keyframes flash {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
 }
