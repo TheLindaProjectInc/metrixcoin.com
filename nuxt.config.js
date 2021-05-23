@@ -142,6 +142,8 @@ export default {
   buildModules: [
     // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
     '@nuxtjs/tailwindcss',
+    // Doc: https://google-fonts.nuxtjs.org/
+    '@nuxtjs/google-fonts'
   ],
   /*
   ** Nuxt.js modules
@@ -154,5 +156,16 @@ export default {
   ** See https://nuxtjs.org/api/configuration-build/
   */
   build: {
+  },
+  /*
+  ** Google Fonts
+  ** https://google-fonts.nuxtjs.org/options
+  */
+  googleFonts: {
+    families: {
+      Poppins: [300, 400, 600]
+    },
+    download: true,
+    stylePath: '~/assets/css/fonts.css'
   }
 }
