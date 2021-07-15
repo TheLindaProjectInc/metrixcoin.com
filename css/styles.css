@@ -2714,6 +2714,12 @@ section p {
   top: 40%;
   right: -15px
 }
+.partners .team__member .team__member-img a[class*="icon-"].icon-position-left,
+.products .team__member .team__member-img a[class*="icon-"].icon-position-left,
+#team .team__member .team__member-img a[class*="icon-"].icon-position-left {
+  left: -15px;
+  right: initial;
+}
 .partners .team__member .team__member-img img, .products .team__member .team__member-img img, #team .team__member .team__member-img img {
   border: 8px solid #cdcdcd;
   border-radius: 50%;
