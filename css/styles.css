@@ -2080,7 +2080,8 @@ h1, h2, h3, h4 {
 .logo h1 {
   color: #fff;
   font-weight: 300;
-  font-size: 21px
+  font-size: 21px;
+  width: 100%;
 }
 .logo img {
   max-height: 35px;
