@@ -3470,9 +3470,6 @@ footer .metrix-exchanges img.btc-alpha {
   width: 72px;
   margin: 0;
 }
-footer .metrix-exchanges img.digifinex {
-  height: 40px;
-}
 footer .metrix-exchanges .buy-metrix-link {
   display: inline-flex;
   align-items: center;
@@ -3485,6 +3482,17 @@ footer .metrix-exchanges .buy-metrix-link h1 {
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
   font-size: 26px;
+}
+footer .metrix-exchanges img.pancakeswap {
+  width: 200px;
+}
+@media screen and (max-width:64em) {
+  footer .metrix-exchanges img.pancakeswap {
+    width: 115px;
+  }
+}
+footer .metrix-exchanges img.digifinex {
+  height: 40px;
 }
 @media only screen and (max-width:64em) {
   footer .metrix-exchanges .buy-metrix-link h1 {
