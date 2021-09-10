@@ -3991,6 +3991,9 @@ footer .copyrights p {
     margin: 0 1rem;
     max-height: 40px
   }
+  footer .metrix-exchanges img:hover {
+    opacity: 1;
+  }
   footer .metrix-exchanges img.btc-alpha {
     margin-left: 1rem;
   }
