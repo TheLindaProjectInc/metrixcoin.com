@@ -1403,11 +1403,17 @@ a:link {
   content: "\eac2"
 }
 
-.icon-target:before {
-  content: "\e9b3"
+.icon-crop:before {
+  content: "\ea57"
 }
 .icon-shield:before {
   content: "\e9b4"
+}
+.icon-power:before {
+  content: "\e9b5"
+}
+.icon-target:before {
+  content: "\e9b3"
 }
 .icon-close:before {
   content: "\ea0d"
@@ -3092,6 +3098,19 @@ section p {
   max-height: 43px;
   margin-top: 14px;
 }
+.products .products__grid .product__item-bMetrix h5 {
+  color: #ffffff;
+}
+.products .products__grid .product__item-sMetrix {
+  background-color: #f5f5f5;
+}
+.products .products__grid .product__item-sMetrix img {
+  max-height: 58px;
+  margin-top: 12px;
+}
+.products .products__grid .product__item-sMetrix p {
+  color: #29072c;
+}
 .products .products__grid .product__item-msw {
   background-color: #8D75B9;
 }
@@ -3977,6 +3996,9 @@ footer .copyrights p {
   footer .metrix-exchanges img {
     margin: 0 1rem;
     max-height: 40px
+  }
+  footer .metrix-exchanges img:hover {
+    opacity: 1;
   }
   footer .metrix-exchanges img.btc-alpha {
     margin-left: 1rem;
@@ -6013,7 +6035,12 @@ button.swiper-pagination-bullet {
   }
 }
 .ovx-tab-system .ovx-tabs {
-  border-bottom: 4px solid #614D69
+  border-bottom: 4px solid #614D69;
+}
+@media only screen and (max-width:480px) {
+  .ovx-tab-system .ovx-tabs {
+    border-bottom: 4px solid transparent;
+  }
 }
 .ovx-tab-system .ovx-tabs li {
   display: inline-block;
