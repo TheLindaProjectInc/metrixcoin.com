@@ -3092,6 +3092,19 @@ section p {
   max-height: 43px;
   margin-top: 14px;
 }
+.products .products__grid .product__item-bMetrix h5 {
+  color: #ffffff;
+}
+.products .products__grid .product__item-sMetrix {
+  background-color: #f5f5f5;
+}
+.products .products__grid .product__item-sMetrix img {
+  max-height: 58px;
+  margin-top: 12px;
+}
+.products .products__grid .product__item-sMetrix p {
+  color: #29072c;
+}
 .products .products__grid .product__item-msw {
   background-color: #8D75B9;
 }
