@@ -6035,7 +6035,12 @@ button.swiper-pagination-bullet {
   }
 }
 .ovx-tab-system .ovx-tabs {
-  border-bottom: 4px solid #614D69
+  border-bottom: 4px solid #614D69;
+}
+@media only screen and (max-width:480px) {
+  .ovx-tab-system .ovx-tabs {
+    border-bottom: 4px solid transparent;
+  }
 }
 .ovx-tab-system .ovx-tabs li {
   display: inline-block;
