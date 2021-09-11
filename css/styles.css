@@ -3479,6 +3479,9 @@ footer .metrix-exchanges h3 {
     margin-right: 20px;
   }
 }
+footer .metrix-exchanges a {
+  display: inline-block;
+}
 footer .metrix-exchanges img {
   margin: 0 .5rem;
   opacity: .5;
@@ -3508,6 +3511,22 @@ footer .metrix-exchanges img.pancakeswap {
 @media screen and (max-width:64em) {
   footer .metrix-exchanges img.pancakeswap {
     width: 115px;
+  }
+}
+footer .metrix-exchanges img.uniswap {
+  width: 152px;
+}
+@media screen and (max-width:64em) {
+  footer .metrix-exchanges img.uniswap {
+    width: 90px;
+  }
+}
+footer .metrix-exchanges img.infinitycrypto {
+  width: 250px;
+}
+@media screen and (max-width:64em) {
+  footer .metrix-exchanges img.infinitycrypto {
+    width: 145px;
   }
 }
 footer .metrix-exchanges img.digifinex {
