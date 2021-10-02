@@ -2134,7 +2134,12 @@ header .logo {
   color: #fff;
   transform-origin: top left;
   margin: 0 1rem;
-  transform: scale(.5)
+  width: 50px;
+  height: 50px;
+}
+header .logo h1 {
+  width: 50%;
+  margin: 0 auto;
 }
 header .logo span {
   display: none
@@ -3970,7 +3975,11 @@ footer .copyrights p {
     background: 0 0
   }
   header .logo {
-    transform: scale(1)
+    width: 100px;
+    height: 100px;
+  }
+  header .logo h1 {
+    width: 100%;
   }
   header .logo span {
     display: block
@@ -6324,4 +6333,40 @@ button.swiper-pagination-bullet {
   0% { opacity: 0; }
   50% { opacity: 1; }
   100% { opacity: 0; }
+}
+#hero .trustpilot {
+  margin-top: -2rem;
+  margin-bottom: 0;
+}
+.trustpilot {
+  position: relative;
+  margin: .5rem 0 2rem;
+  padding: 0 2rem;
+}
+.trustpilot iframe {
+  transform: scale(1.2);
+}
+@media (min-width: 64em) {
+  .trustpilot {
+    top: -1em;
+    margin-bottom: 1rem;
+  }
+  .trustpilot iframe {
+    transform: scale(2);
+  }
+}
+.trustpilot a {
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
+  background-color: #7c6386;
+}
+@media (max-width: 48em) {
+  .trustpilot a {
+    font-size: 1.5em;
+  }
+}
+.trustpilot a:hover {
+  color: white;
+  background-color: #957d9f;
 }
