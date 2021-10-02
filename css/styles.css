@@ -6357,6 +6357,10 @@ button.swiper-pagination-bullet {
   .trustpilot iframe {
     transform: scale(2);
   }
+  footer .trustpilot iframe {
+    width: 460px !important;
+    float: right;
+  }
 }
 .trustpilot a {
   color: white;
