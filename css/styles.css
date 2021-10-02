@@ -1402,6 +1402,9 @@ a:link {
 .icon-windows8:before {
   content: "\eac2"
 }
+.icon-chrome:before {
+  content: "\ead9";
+}
 
 .icon-crop:before {
   content: "\ea57"
