@@ -6357,6 +6357,10 @@ button.swiper-pagination-bullet {
   .trustpilot iframe {
     transform: scale(2);
   }
+  footer .trustpilot iframe {
+    width: 460px !important;
+    float: right;
+  }
 }
 .trustpilot a {
   color: white;
@@ -6372,4 +6376,22 @@ button.swiper-pagination-bullet {
 .trustpilot a:hover {
   color: white;
   background-color: #957d9f;
+}
+.video-reviews .lyte {
+  width: 245px;
+  height: 150px;
+}
+.video__m-div {
+  background-color:#e6e6e6;
+  border-radius:10px;
+  box-shadow:0 3.66px 9.16px rgba(0,0,0,.8);
+  padding:1.5rem;
+  min-width:280px;
+  min-height:23rem;
+}
+.video__m-div h3 {
+  font-weight: 400;
+  color: #000;
+  padding-top: 0.8rem;
+  font-size: 1.7rem;
 }
