@@ -6377,3 +6377,17 @@ button.swiper-pagination-bullet {
   color: white;
   background-color: #957d9f;
 }
+.video__m-div {
+  background-color:#e6e6e6;
+  border-radius:10px;
+  box-shadow:0 3.66px 9.16px rgba(0,0,0,.8);
+  padding:1.5rem;
+  min-width:280px;
+  min-height:23rem;
+}
+.video__m-div h3 {
+  font-weight: 400;
+  color: #000;
+  padding-top: 0.8rem;
+  font-size: 1.7rem;
+}
