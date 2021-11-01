@@ -6377,6 +6377,10 @@ button.swiper-pagination-bullet {
   color: white;
   background-color: #957d9f;
 }
+.video-reviews .lyte {
+  width: 245px;
+  height: 150px;
+}
 .video__m-div {
   background-color:#e6e6e6;
   border-radius:10px;
