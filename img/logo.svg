@@ -1,10 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 371.2 226.5" style="enable-background:new 0 0 371.2 226.5;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#FFFFFF;}
-</style>
-<polygon class="st0" points="329.8,226.5 371.2,200.3 294.6,76 323.9,57.8 323.7,0 184.9,86.3 46.2,0 46,57.8 74.8,75.9 0,200.3 
-	40.3,226.5 116.3,101.3 161,128.9 162.9,226.5 211.6,226.5 209.7,128.4 253.1,101.6 "/>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="827px" height="827px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 827 827"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0 {fill:white}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <path class="fil0" d="M414 827c228,0 413,-185 413,-413 0,-229 -185,-414 -413,-414 -229,0 -414,185 -414,414 0,228 185,413 414,413zm0 -752c87,0 167,34 227,89l-229 142 -227 -142c60,-55 140,-89 229,-89zm236 96c63,62 102,148 102,243 0,34 -5,67 -15,99l-137 -225 50 -31 0 -86zm59 407c-57,103 -168,174 -295,174 -128,0 -239,-71 -296,-174l28 0 149 -246 76 47 4 213 83 0 -3 -214 74 -46 150 246 30 0zm-619 -67c-10,-31 -15,-63 -15,-97 0,-94 38,-179 100,-241l0 84 49 31 -134 223z"/>
+ </g>
 </svg>
