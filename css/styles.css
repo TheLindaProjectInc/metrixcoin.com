@@ -3096,6 +3096,7 @@ section p {
 #partner.products .products__grid {
   display: flex;
 }
+
 @media (min-width: 473px) {
   .products .products__grid {
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
@@ -6298,6 +6299,11 @@ button.swiper-pagination-bullet {
 #as-seen-on img:last-child {
   margin-right: 0;
 }
+
+footer #as-seen-on img{
+  opacity: 0.5;
+}
+
 .zoom:hover {
   transform: scale(1.5);
 }
@@ -6395,6 +6401,11 @@ button.swiper-pagination-bullet {
 .video-reviews .lyte {
   width: 245px;
   height: 150px;
+  margin: 0 auto;
+}
+.video-reviews a img {
+  width: 245px;
+  margin: 0 auto;
 }
 .video__m-div {
   background-color:#e6e6e6;
