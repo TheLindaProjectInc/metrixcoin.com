@@ -6296,6 +6296,12 @@ button.swiper-pagination-bullet {
   max-height: 2.5rem;
   margin: 1rem 1.5rem;
 }
+@media screen and (max-width:64em) {
+  #as-seen-on img {
+    max-height: 2rem;
+    margin: 0.25rem 0.5rem;
+  }
+}
 #as-seen-on img:last-child {
   margin-right: 0;
 }
