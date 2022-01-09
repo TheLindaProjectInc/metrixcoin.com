@@ -334,7 +334,7 @@ If you are a developer and you are willing to volunteer to help this (now) commu
             json.usd_24h_vol.toFixed(0) + " USD"
           );
           $("#requestMC").append(
-            json.usd_market_cap == 0 ? "?" : json.usd_market_cap.toFixed(2) + " USD"
+            json.usd_market_cap == 0 ? "?" : json.usd_market_cap.toFixed(0) + " USD"
           );
         });
       } else {
