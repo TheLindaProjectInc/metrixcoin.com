@@ -2070,7 +2070,7 @@ h1, h2, h3, h4 {
   letter-spacing: 1px;
   font-family: Poppins, sans-serif;
   white-space: nowrap;
-  background: #140416;
+  /* background: #140416; */
   opacity: .8;
   border-radius: 50%;
   display: inline-block;
@@ -2333,7 +2333,8 @@ header.mhn .hamburger {
   right: 2.5em
 }
 header.stick .logo {
-  margin: 1.3em 1em
+  margin: 1.3em 1em;
+  background: #140416;
 }
 header:not(.mhn) nav.header__menu>a {
   visibility: hidden;
