@@ -2070,7 +2070,7 @@ h1, h2, h3, h4 {
   letter-spacing: 1px;
   font-family: Poppins, sans-serif;
   white-space: nowrap;
-  background: #140416;
+  /* background: #140416; */
   opacity: .8;
   border-radius: 50%;
   display: inline-block;
@@ -2333,7 +2333,8 @@ header.mhn .hamburger {
   right: 2.5em
 }
 header.stick .logo {
-  margin: 1.3em 1em
+  margin: 1.3em 1em;
+  background: #140416;
 }
 header:not(.mhn) nav.header__menu>a {
   visibility: hidden;
@@ -3116,8 +3117,8 @@ section p {
   background-color: #D7D7D7;
 }
 .products .products__grid .product__item-sMetrix img {
-  max-height: 58px;
-  margin-top: 12px;
+  max-height: 52px;
+  margin-top: 14px;
 }
 .products .products__grid .product__item-sMetrix p {
   color: #29072c;
@@ -3142,6 +3143,21 @@ section p {
 .products .products__grid .product__item-mnp img {
   max-height: 35px;
 }
+.products .products__grid .product__item-metriverse {
+  background-color: #D7D7D7;
+}
+.products .products__grid .product__item-metriverse p {
+  color: #29072c;
+}
+
+.products .products__grid .product__item-MetriMask {
+  background-color: #7290CC;
+}
+.products .products__grid .product__item-MetriMask img {
+  max-height: 50px;
+  margin-top: 12px;
+}
+
 .products .products__grid .product__item-feedback {
   background-color: #730373;
 }
