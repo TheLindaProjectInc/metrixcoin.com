@@ -6443,3 +6443,23 @@ footer #as-seen-on img{
   padding-top: 0.8rem;
   font-size: 1.7rem;
 }
+
+.brand_assets {
+	padding: 1rem 1rem;
+}
+.brand_assets img{
+	width: 140px; 
+	height:140px; 
+	/* border: 2px solid #29072c; */
+	border-radius: 50%; 
+	margin: 2rem 0 1rem 0;
+	background-color: white;
+	box-shadow: 0 4px 10px rgb(0 0 0 / 50%);
+}
+.brand_assets h3 {
+	font-size: 1.3em;
+}
+
+.brand_assets .ovx-btn {
+	margin-top: 1rem;
+}

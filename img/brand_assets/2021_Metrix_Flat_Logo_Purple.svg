@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="1181px" height="893px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 530 400"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil1 {fill:none}
+    .fil0 {fill:#250125}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_515272248">
+   <path class="fil0" d="M265 276c76,0 137,-61 137,-137 0,-76 -61,-138 -137,-138 -76,0 -138,62 -138,138 0,76 62,137 138,137zm0 -250c29,0 56,11 76,30l-77 47 -75 -47c20,-19 46,-30 76,-30zm78 32c21,21 34,49 34,81 0,11 -1,22 -4,33l-46 -75 17 -10 -1 -29zm20 135c-19,35 -56,58 -98,58 -43,0 -80,-23 -99,-58l10 0 49 -81 26 15 1 71 28 0 -1 -71 24 -15 50 81 10 0zm-206 -22c-3,-10 -5,-21 -5,-32 0,-31 13,-60 33,-80l0 28 17 10 -45 74z"/>
+   <polygon class="fil0" points="459,299 481,331 503,299 528,299 493,349 530,400 505,400 481,366 457,400 433,400 469,349 435,299 "/>
+   <polygon class="fil0" points="419,299 419,400 398,400 398,299 "/>
+   <path class="fil0" d="M362 363c4,-2 8,-4 11,-7 7,-6 11,-15 11,-24 0,-9 -4,-17 -11,-24 -7,-6 -16,-9 -26,-9 -10,0 -20,-1 -31,-1l0 102 21 0 0 -34 3 0 23 34 24 0 -25 -37zm-25 -46l10 0c4,0 8,1 12,4 3,3 4,7 4,11 0,4 -1,8 -4,11 -4,3 -8,4 -12,4l-10 0 0 -30z"/>
+   <polygon class="fil0" points="239,299 303,299 303,317 281,317 281,400 260,400 260,317 239,317 "/>
+   <polygon class="fil0" points="183,317 224,317 224,299 163,299 163,400 224,400 224,382 183,382 183,359 214,359 214,341 183,341 "/>
+   <polygon class="fil0" points="22,400 43,346 75,400 107,346 129,400 151,400 118,319 110,298 99,318 75,363 51,318 40,298 32,319 0,400 "/>
+   <rect class="fil1" x="126" width="278" height="278"/>
+  </g>
+ </g>
+</svg>
