@@ -6384,6 +6384,11 @@ footer #as-seen-on img{
   margin-top: -2rem;
   margin-bottom: 0;
 }
+.cryptocom {
+  position: relative;
+  margin: .5rem 0 2rem;
+  padding: 0 2rem;
+}
 .trustpilot {
   position: relative;
   margin: .5rem 0 2rem;
@@ -6393,6 +6398,12 @@ footer #as-seen-on img{
   transform: scale(1.2);
 }
 @media (min-width: 64em) {
+  .cryptocom {
+    top: -1em;
+    margin-bottom: 1rem;
+    width: 260px;
+    float: right;
+  }
   .trustpilot {
     top: -1em;
     margin-bottom: 1rem;
