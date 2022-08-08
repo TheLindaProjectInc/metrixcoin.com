@@ -3000,6 +3000,11 @@ section p {
   border-color: #219653;
   background: 0 0
 }
+#roadmap .rm-prg.rm-prg-sr {
+  border-color: #800000;
+  background: #F29E96;
+}
+
 #roadmap .roadmap__quarter {
   margin-bottom: .5rem
 }
@@ -3057,6 +3062,14 @@ section p {
 #roadmap .roadmap__task.rm-prg-fs .roadmap__task--title:before {
   border-color: #219653;
   background: #219653
+}
+#roadmap .roadmap__task.rm-prg-sr {
+  background-color: #F29E96;
+  border-color: #800000;
+}
+#roadmap .roadmap__task.rm-prg-sr .roadmap__task--title:before {
+  background-color: #F29E96;
+  border-color: #800000;
 }
 #roadmap .roadmap__task.rm-prg-wp {
   background-color: #fbedc3;
