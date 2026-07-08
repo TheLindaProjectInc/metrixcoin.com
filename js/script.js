@@ -345,5 +345,7 @@ If you are a developer and you are willing to volunteer to help this (now) commu
 
   // Footer Copyright
   $(document).ready(function() {
-    $('footer .copyrights p').html('&copy; '+ new Date().getFullYear() +' | Metrix.');
+    $('footer .copyrights p').each(function() {
+      $(this).html($(this).html().replace(/\d{4}/, new Date().getFullYear()));
+    });
   });
