@@ -349,3 +349,11 @@ If you are a developer and you are willing to volunteer to help this (now) commu
       $(this).html($(this).html().replace(/\d{4}/, new Date().getFullYear()));
     });
   });
+
+  // Altitude version
+  $.get('https://api.github.com/repos/TheLindaProjectInc/Altitude/releases/latest', function(data) {
+    var ver = data.tag_name || '3.4.2';
+    $('.wallet-link').each(function() {
+      $(this).text($(this).text().replace(/v\d[\d.]*/, 'v' + ver));
+    });
+  });
