@@ -357,3 +357,13 @@ If you are a developer and you are willing to volunteer to help this (now) commu
       $(this).text($(this).text().replace(/v\d[\d.]*/, 'v' + ver));
     });
   });
+
+  // Dynamic roadmap year in FAQ
+  (function() {
+    var now = new Date();
+    var month = now.getMonth();
+    var year = now.getFullYear();
+    var yearText = month < 6 ? year : year + '/' + (year + 1);
+    var el = document.getElementById('faq-roadmap-label');
+    if (el) el.textContent = "Where is Metrix going from here? What's the roadmap " + yearText + "?";
+  })();
