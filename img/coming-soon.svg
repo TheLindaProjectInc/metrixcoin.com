@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" rx="16" fill="#121531"/>
+  <g transform="translate(200,80)">
+    <rect x="-60" y="-60" width="120" height="120" rx="60" fill="#2ac06a"/>
+    <text x="0" y="0" text-anchor="middle" dominant-baseline="central" fill="white" font-family="sans-serif" font-weight="bold" font-size="52">M</text>
+  </g>
+  <text x="200" y="175" text-anchor="middle" fill="white" font-family="sans-serif" font-weight="bold" font-size="28">Coming Soon</text>
+  <text x="200" y="210" text-anchor="middle" fill="#888" font-family="sans-serif" font-size="13">New roadmap &amp; whitepaper in progress</text>
+  <line x1="120" y1="240" x2="280" y2="240" stroke="#2ac06a" stroke-width="2" stroke-dasharray="4,4" opacity="0.5"/>
+</svg>
